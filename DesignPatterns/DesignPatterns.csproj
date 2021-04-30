@@ -48,6 +48,7 @@
     <Compile Include="Proxy\CompositeProxy\Creature.cs" />
     <Compile Include="Proxy\CompositeProxy\Creatures.cs" />
     <Compile Include="Proxy\CompositeProxy\Demo.cs" />
+    <Compile Include="Proxy\Info.cs" />
     <Compile Include="Proxy\PropertyProxy\Demo.cs" />
     <Compile Include="Proxy\PropertyProxy\Property.cs" />
     <Compile Include="Proxy\ProtectionProxy\Car.cs" />
@@ -62,6 +63,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Proxy\DynamicProxy\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
