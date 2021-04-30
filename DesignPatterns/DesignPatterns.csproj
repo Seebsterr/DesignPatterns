@@ -45,9 +45,22 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\CompositeProxy\Creature.cs" />
+    <Compile Include="Proxy\CompositeProxy\Demo.cs" />
+    <Compile Include="Proxy\PropertyProxy\Demo.cs" />
+    <Compile Include="Proxy\PropertyProxy\Property.cs" />
+    <Compile Include="Proxy\ProtectionProxy\Car.cs" />
+    <Compile Include="Proxy\ProtectionProxy\Demo.cs" />
+    <Compile Include="Proxy\ProtectionProxy\Driver.cs" />
+    <Compile Include="Proxy\ProtectionProxy\ICar.cs" />
+    <Compile Include="Proxy\ProtectionProxy\CarProxy.cs" />
+    <Compile Include="Proxy\ValueProxy\Demo.cs" />
+    <Compile Include="Proxy\ValueProxy\Percentage.cs" />
+    <Compile Include="Proxy\ValueProxy\PercentageExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
