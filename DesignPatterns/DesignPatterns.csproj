@@ -41,6 +41,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,6 +52,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\AbstractFactory\Coffee.cs" />
+    <Compile Include="Factories\AbstractFactory\CoffeeFactory.cs" />
+    <Compile Include="Factories\AbstractFactory\Demo.cs" />
+    <Compile Include="Factories\AbstractFactory\Enums\AvailableDrink.cs" />
+    <Compile Include="Factories\AbstractFactory\Enums\HotDrinkSize.cs" />
+    <Compile Include="Factories\AbstractFactory\HotDrinkMatchine.cs" />
+    <Compile Include="Factories\AbstractFactory\Interfaces\IHotDrink.cs" />
+    <Compile Include="Factories\AbstractFactory\Interfaces\IHotDrinkFactory.cs" />
+    <Compile Include="Factories\AbstractFactory\Tea.cs" />
+    <Compile Include="Factories\AbstractFactory\TeaFactory.cs" />
+    <Compile Include="Factories\InnerFactory\Demo.cs" />
+    <Compile Include="Factories\InnerFactory\Point.cs" />
+    <Compile Include="Factories\FactoryMethod\Demo.cs" />
+    <Compile Include="Factories\Factory\Demo.cs" />
+    <Compile Include="Factories\Factory\Point.cs" />
+    <Compile Include="Factories\Factory\PointFactory.cs" />
+    <Compile Include="Factories\Info.cs" />
+    <Compile Include="Factories\FactoryMethod\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\CompositeProxy\Creature.cs" />
@@ -72,7 +93,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
