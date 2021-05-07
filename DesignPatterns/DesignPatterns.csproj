@@ -52,6 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\AdapterAndDecorator\MyStringBuilder.cs" />
+    <Compile Include="Decorator\AdapterAndDecorator\Demo.cs" />
+    <Compile Include="Decorator\CustomStringBuilder\CodeBuilder.cs" />
+    <Compile Include="Decorator\CustomStringBuilder\Demo.cs" />
+    <Compile Include="Decorator\Info.cs" />
     <Compile Include="Factories\AbstractFactory\Coffee.cs" />
     <Compile Include="Factories\AbstractFactory\CoffeeFactory.cs" />
     <Compile Include="Factories\AbstractFactory\Demo.cs" />
