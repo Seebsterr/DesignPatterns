@@ -52,11 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\Builder\Demo.cs" />
+    <Compile Include="Builder\Builder\HtmlBuilder.cs" />
+    <Compile Include="Builder\Builder\HtmlElement.cs" />
+    <Compile Include="Builder\FacadeBuilder\Demo.cs" />
+    <Compile Include="Builder\FacadeBuilder\Person.cs" />
+    <Compile Include="Builder\FacadeBuilder\PersonAddressBuilder.cs" />
+    <Compile Include="Builder\FacadeBuilder\PersonBuilder.cs" />
+    <Compile Include="Builder\FacadeBuilder\PersonJobBuilder.cs" />
     <Compile Include="Decorator\AdapterAndDecorator\MyStringBuilder.cs" />
     <Compile Include="Decorator\AdapterAndDecorator\Demo.cs" />
     <Compile Include="Decorator\CustomStringBuilder\CodeBuilder.cs" />
     <Compile Include="Decorator\CustomStringBuilder\Demo.cs" />
-    <Compile Include="Decorator\Info.cs" />
     <Compile Include="Factories\AbstractFactory\Coffee.cs" />
     <Compile Include="Factories\AbstractFactory\CoffeeFactory.cs" />
     <Compile Include="Factories\AbstractFactory\Demo.cs" />
@@ -73,7 +80,6 @@
     <Compile Include="Factories\Factory\Demo.cs" />
     <Compile Include="Factories\Factory\Point.cs" />
     <Compile Include="Factories\Factory\PointFactory.cs" />
-    <Compile Include="Factories\Info.cs" />
     <Compile Include="Factories\FactoryMethod\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,7 +90,6 @@
     <Compile Include="Proxy\DynamicProxy\Demo.cs" />
     <Compile Include="Proxy\DynamicProxy\IBankAccount.cs" />
     <Compile Include="Proxy\DynamicProxy\Log.cs" />
-    <Compile Include="Proxy\Info.cs" />
     <Compile Include="Proxy\PropertyProxy\Demo.cs" />
     <Compile Include="Proxy\PropertyProxy\Property.cs" />
     <Compile Include="Proxy\ProtectionProxy\Car.cs" />
@@ -101,6 +106,12 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Builder\Info.txt" />
+    <Content Include="Decorator\Info.txt" />
+    <Content Include="Factories\Info.txt" />
+    <Content Include="Proxy\Info.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

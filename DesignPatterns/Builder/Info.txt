@@ -1,0 +1,7 @@
+﻿Builder - When piecewise object construction is complicated, 
+provide an API for doing it succinctly.
+Builder - is a separate component for building an object,
+- can either give builder a constructor or return it via a static function.
+- to make builder fluent, return this.
+- different facets of an object can be build with different 
+builders working in tandem via a base class
