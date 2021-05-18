@@ -85,6 +85,10 @@
     <Compile Include="Builder\FacadeBuilder\PersonAddressBuilder.cs" />
     <Compile Include="Builder\FacadeBuilder\PersonBuilder.cs" />
     <Compile Include="Builder\FacadeBuilder\PersonJobBuilder.cs" />
+    <Compile Include="Command\Action.cs" />
+    <Compile Include="Command\BankAccount.cs" />
+    <Compile Include="Command\BankAccountCommand.cs" />
+    <Compile Include="Command\Demo.cs" />
     <Compile Include="Decorator\AdapterAndDecorator\MyStringBuilder.cs" />
     <Compile Include="Decorator\AdapterAndDecorator\Demo.cs" />
     <Compile Include="Decorator\CustomStringBuilder\CodeBuilder.cs" />
@@ -141,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Builder\Info.txt" />
+    <Content Include="Command\Info.txt" />
     <Content Include="Decorator\Info.txt" />
     <Content Include="Factories\Info.txt" />
     <Content Include="NullObject\Info.txt" />

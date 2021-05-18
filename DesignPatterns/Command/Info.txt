@@ -1,0 +1,6 @@
+﻿Command - an object which represents an instruction to perform a particular action. 
+Contains all the information necessary for the action to be taken.
+
+Encapsulate all details of an operation in a separate object.
+Define instruction for applying the command.
+Optionally define instructions ofr undoing command.
