@@ -142,6 +142,9 @@
     <Compile Include="Proxy\ValueProxy\Demo.cs" />
     <Compile Include="Proxy\ValueProxy\Percentage.cs" />
     <Compile Include="Proxy\ValueProxy\PercentageExtensions.cs" />
+    <Compile Include="TemplateMethod\Chess.cs" />
+    <Compile Include="TemplateMethod\Demo.cs" />
+    <Compile Include="TemplateMethod\Game.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
