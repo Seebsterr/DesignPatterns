@@ -1,0 +1,2 @@
+﻿Facade - provides a simple, easy to understand/ user interface over a large and sophisticated body of code.
+Build a Facade to provide a simplified API over a set of classes. 

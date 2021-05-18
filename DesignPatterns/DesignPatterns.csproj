@@ -147,6 +147,7 @@
     <Content Include="Builder\Info.txt" />
     <Content Include="Command\Info.txt" />
     <Content Include="Decorator\Info.txt" />
+    <Content Include="Facade\Info.txt" />
     <Content Include="Factories\Info.txt" />
     <Content Include="NullObject\Info.txt" />
     <Content Include="Proxy\Info.txt" />
