@@ -1,0 +1,3 @@
+﻿Null Object - A no-op object that conforms to the required interface, 
+satisying a dependency requirement of some other object.
+
