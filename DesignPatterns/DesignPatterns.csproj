@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bridge\Circle.cs" />
+    <Compile Include="Bridge\Demo.cs" />
+    <Compile Include="Bridge\IRender.cs" />
+    <Compile Include="Bridge\RasterRenderer.cs" />
+    <Compile Include="Bridge\Shape.cs" />
+    <Compile Include="Bridge\VectorRenderer.cs" />
     <Compile Include="Builder\Builder\Demo.cs" />
     <Compile Include="Builder\Builder\HtmlBuilder.cs" />
     <Compile Include="Builder\Builder\HtmlElement.cs" />
@@ -153,6 +159,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bridge\Info.txt" />
     <Content Include="Builder\Info.txt" />
     <Content Include="Command\Info.txt" />
     <Content Include="Decorator\Info.txt" />

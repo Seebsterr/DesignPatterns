@@ -1,0 +1,1 @@
+﻿Bridge - a mechanism that decouples an interface from an implementation.
