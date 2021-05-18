@@ -93,6 +93,12 @@
     <Compile Include="Decorator\AdapterAndDecorator\Demo.cs" />
     <Compile Include="Decorator\CustomStringBuilder\CodeBuilder.cs" />
     <Compile Include="Decorator\CustomStringBuilder\Demo.cs" />
+    <Compile Include="Decorator\DynamicDecoratorComposition\Circle.cs" />
+    <Compile Include="Decorator\DynamicDecoratorComposition\ColoredShape.cs" />
+    <Compile Include="Decorator\DynamicDecoratorComposition\Demo.cs" />
+    <Compile Include="Decorator\DynamicDecoratorComposition\Shape.cs" />
+    <Compile Include="Decorator\DynamicDecoratorComposition\Square.cs" />
+    <Compile Include="Decorator\DynamicDecoratorComposition\TransparentShape.cs" />
     <Compile Include="Factories\AbstractFactory\Coffee.cs" />
     <Compile Include="Factories\AbstractFactory\CoffeeFactory.cs" />
     <Compile Include="Factories\AbstractFactory\Demo.cs" />
