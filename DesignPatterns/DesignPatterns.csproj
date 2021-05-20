@@ -148,6 +148,12 @@
     <Compile Include="Proxy\ValueProxy\Demo.cs" />
     <Compile Include="Proxy\ValueProxy\Percentage.cs" />
     <Compile Include="Proxy\ValueProxy\PercentageExtensions.cs" />
+    <Compile Include="Strategy\DynamicStrategy\Demo.cs" />
+    <Compile Include="Strategy\DynamicStrategy\HtmlListStrategy.cs" />
+    <Compile Include="Strategy\DynamicStrategy\IListStrategy.cs" />
+    <Compile Include="Strategy\DynamicStrategy\MarkdownListStrategy.cs" />
+    <Compile Include="Strategy\DynamicStrategy\OutputFormat.cs" />
+    <Compile Include="Strategy\DynamicStrategy\TextProcessor.cs" />
     <Compile Include="TemplateMethod\Chess.cs" />
     <Compile Include="TemplateMethod\Demo.cs" />
     <Compile Include="TemplateMethod\Game.cs" />
@@ -167,6 +173,7 @@
     <Content Include="Factories\Info.txt" />
     <Content Include="NullObject\Info.txt" />
     <Content Include="Proxy\Info.txt" />
+    <Content Include="Strategy\Info.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
