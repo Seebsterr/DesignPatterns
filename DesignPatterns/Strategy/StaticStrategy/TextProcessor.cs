@@ -1,25 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Strategy.DynamicStrategy
+namespace DesignPatterns.Strategy.StaticStrategy
 {
-    public class TextProcessor
+    public class TextProcessor<LS> where LS: IListStrategy, new()
     {
         private readonly StringBuilder _stringBuilder = new StringBuilder();
-        private IListStrategy _listStrategy;
-
-        public void SetOutputFormat(OutputFormat format)
-        {
-            switch (format)
-            {
-                case OutputFormat.Markdown:
-                    _listStrategy = new MarkdownListStrategy();
-                    break;
-                case OutputFormat.Html:
-                    _listStrategy = new HtmlListStrategy();
-                    break;
-            }
-        }
+        private IListStrategy _listStrategy = new LS();
 
         public void AppendList(IEnumerable<string> items)
         {

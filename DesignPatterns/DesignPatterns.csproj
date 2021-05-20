@@ -149,11 +149,13 @@
     <Compile Include="Proxy\ValueProxy\Percentage.cs" />
     <Compile Include="Proxy\ValueProxy\PercentageExtensions.cs" />
     <Compile Include="Strategy\DynamicStrategy\Demo.cs" />
-    <Compile Include="Strategy\DynamicStrategy\HtmlListStrategy.cs" />
-    <Compile Include="Strategy\DynamicStrategy\IListStrategy.cs" />
-    <Compile Include="Strategy\DynamicStrategy\MarkdownListStrategy.cs" />
+    <Compile Include="Strategy\HtmlListStrategy.cs" />
+    <Compile Include="Strategy\IListStrategy.cs" />
+    <Compile Include="Strategy\MarkdownListStrategy.cs" />
     <Compile Include="Strategy\DynamicStrategy\OutputFormat.cs" />
     <Compile Include="Strategy\DynamicStrategy\TextProcessor.cs" />
+    <Compile Include="Strategy\StaticStrategy\Demo.cs" />
+    <Compile Include="Strategy\StaticStrategy\TextProcessor.cs" />
     <Compile Include="TemplateMethod\Chess.cs" />
     <Compile Include="TemplateMethod\Demo.cs" />
     <Compile Include="TemplateMethod\Game.cs" />
@@ -171,6 +173,7 @@
     <Content Include="Decorator\Info.txt" />
     <Content Include="Facade\Info.txt" />
     <Content Include="Factories\Info.txt" />
+    <Content Include="Flyweight\Info.txt" />
     <Content Include="NullObject\Info.txt" />
     <Content Include="Proxy\Info.txt" />
     <Content Include="Strategy\Info.txt" />

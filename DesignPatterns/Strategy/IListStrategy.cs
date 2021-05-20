@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace DesignPatterns.Strategy.DynamicStrategy
+namespace DesignPatterns.Strategy
 {
     public interface IListStrategy
     {
