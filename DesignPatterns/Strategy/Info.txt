@@ -1,0 +1,3 @@
+﻿Strategy - enables the exacy behavior of a system to be selected either at run-time (dynamic) or compile-time (static).
+
+Also known as a policy(esp. in the C++ world).
