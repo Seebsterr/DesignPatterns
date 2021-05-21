@@ -144,6 +144,9 @@
     <Compile Include="NullObject\DynamicNullLog\DynamicNull.cs" />
     <Compile Include="NullObject\ILog.cs" />
     <Compile Include="NullObject\NullLog\NullLog.cs" />
+    <Compile Include="Observer\ObservablePropertiesAndSequences\Demo.cs" />
+    <Compile Include="Observer\ObservablePropertiesAndSequences\Market.cs" />
+    <Compile Include="Observer\ObservablePropertiesAndSequences\PriceAddedEventArgs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\CompositeProxy\Creature.cs" />
@@ -190,6 +193,7 @@
     <Content Include="Factories\Info.txt" />
     <Content Include="Flyweight\Info.txt" />
     <Content Include="NullObject\Info.txt" />
+    <Content Include="Observer\Info.txt" />
     <Content Include="Proxy\Info.txt" />
     <Content Include="Strategy\Info.txt" />
   </ItemGroup>
