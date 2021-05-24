@@ -199,6 +199,7 @@
     <Content Include="NullObject\Info.txt" />
     <Content Include="Observer\Info.txt" />
     <Content Include="Proxy\Info.txt" />
+    <Content Include="State\Info.txt" />
     <Content Include="Strategy\Info.txt" />
   </ItemGroup>
   <ItemGroup />
