@@ -137,6 +137,9 @@
     <Compile Include="Flyweight\TextFormatting\BetterFormattedText.cs" />
     <Compile Include="Flyweight\TextFormatting\Demo.cs" />
     <Compile Include="Flyweight\TextFormatting\FormattedText.cs" />
+    <Compile Include="Memento\MementoClass\BankAccount.cs" />
+    <Compile Include="Memento\MementoClass\Demo.cs" />
+    <Compile Include="Memento\MementoClass\Memento.cs" />
     <Compile Include="NullObject\DynamicNullLog\Demo.cs" />
     <Compile Include="NullObject\BankAccount.cs" />
     <Compile Include="NullObject\ConsoleLog.cs" />
@@ -192,6 +195,7 @@
     <Content Include="Facade\Info.txt" />
     <Content Include="Factories\Info.txt" />
     <Content Include="Flyweight\Info.txt" />
+    <Content Include="Memento\Info.txt" />
     <Content Include="NullObject\Info.txt" />
     <Content Include="Observer\Info.txt" />
     <Content Include="Proxy\Info.txt" />
