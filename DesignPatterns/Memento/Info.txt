@@ -1,0 +1,3 @@
+﻿Memento - a token/handle representing the system state.
+Lets us roll back to the state when token was generated.
+May or may not directly expose state information.
