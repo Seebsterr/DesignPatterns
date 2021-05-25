@@ -2,3 +2,4 @@
 state to another (something needs to trigger a transition).
 
 A formalized constructor which manages state and transitions is called a state machine.
+ 
