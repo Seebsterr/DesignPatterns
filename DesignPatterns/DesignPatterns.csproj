@@ -54,6 +54,9 @@
     <Reference Include="nunit.framework, Version=3.13.2.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.13.2\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Stateless, Version=2.3.1.1, Culture=neutral, PublicKeyToken=93038f0927583c9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\stateless-4.0.2.3.1.1\lib\net40\Stateless.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -169,6 +172,12 @@
     <Compile Include="Proxy\ValueProxy\Demo.cs" />
     <Compile Include="Proxy\ValueProxy\Percentage.cs" />
     <Compile Include="Proxy\ValueProxy\PercentageExtensions.cs" />
+    <Compile Include="State\StateMachineLibrary\Activity.cs" />
+    <Compile Include="State\StateMachineLibrary\Demo.cs" />
+    <Compile Include="State\StateMachineLibrary\Health.cs" />
+    <Compile Include="State\StateMachine\Demo.cs" />
+    <Compile Include="State\StateMachine\State.cs" />
+    <Compile Include="State\StateMachine\Trigger.cs" />
     <Compile Include="Strategy\DynamicStrategy\Demo.cs" />
     <Compile Include="Strategy\HtmlListStrategy.cs" />
     <Compile Include="Strategy\IListStrategy.cs" />
