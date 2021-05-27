@@ -1,0 +1,1 @@
+﻿Composite - a mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner.

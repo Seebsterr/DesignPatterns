@@ -107,6 +107,14 @@
     <Compile Include="Command\BankAccount.cs" />
     <Compile Include="Command\BankAccountCommand.cs" />
     <Compile Include="Command\Demo.cs" />
+    <Compile Include="Composite\GeometricShapes\Circle.cs" />
+    <Compile Include="Composite\GeometricShapes\Demo.cs" />
+    <Compile Include="Composite\GeometricShapes\GraphicObject.cs" />
+    <Compile Include="Composite\GeometricShapes\Square.cs" />
+    <Compile Include="Composite\NeuralNetworks\Demo.cs" />
+    <Compile Include="Composite\NeuralNetworks\ExtensionMethod.cs" />
+    <Compile Include="Composite\NeuralNetworks\Neuron.cs" />
+    <Compile Include="Composite\NeuralNetworks\NeuronLayer.cs" />
     <Compile Include="Decorator\AdapterAndDecorator\MyStringBuilder.cs" />
     <Compile Include="Decorator\AdapterAndDecorator\Demo.cs" />
     <Compile Include="Decorator\CustomStringBuilder\CodeBuilder.cs" />
@@ -200,6 +208,7 @@
     <Content Include="Bridge\Info.txt" />
     <Content Include="Builder\Info.txt" />
     <Content Include="Command\Info.txt" />
+    <Content Include="Composite\Info.txt" />
     <Content Include="Decorator\Info.txt" />
     <Content Include="Facade\Info.txt" />
     <Content Include="Factories\Info.txt" />
