@@ -6,7 +6,7 @@ namespace DesignPatterns.Adapter.VectorRaster
 {
     public class LineToPointAdapter : Collection<Point>
     {
-        private static int _count = 0;
+        private static int _count;
         private static Dictionary<int, List<Point>> _cache = new Dictionary<int, List<Point>>();
 
         public LineToPointAdapter(Line line)
